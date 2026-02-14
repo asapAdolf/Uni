@@ -1,0 +1,15 @@
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\bin\Debug\net10.0\primerParcial.exe
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\bin\Debug\net10.0\primerParcial.deps.json
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\bin\Debug\net10.0\primerParcial.runtimeconfig.json
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\bin\Debug\net10.0\primerParcial.dll
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\bin\Debug\net10.0\primerParcial.pdb
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.AssemblyInfoInputs.cache
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.AssemblyInfo.cs
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.csproj.CoreCompileInputs.cache
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.sourcelink.json
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.dll
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\refint\primerParcial.dll
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.pdb
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\primerParcial.genruntimeconfig.cache
+C:\Users\bofo2\Desktop\Uni\Propietarias 1\primerParcial\primerParcial\obj\Debug\net10.0\ref\primerParcial.dll

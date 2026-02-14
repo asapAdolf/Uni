@@ -1,0 +1,40 @@
+import numpy as np
+import pandas as pd
+from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('clientes.csv')
+print(df.head())
+X = df[['Edad', 'Ingreso']].values
+y = df['Compra'].values
+
+knn = KNeighborsClassifier(n_neighbors=5)
+knn.fit(X, y)
+
+nuevo_punto1 = np.array([[22, 5000]]) 
+prediccion1 = knn.predict(nuevo_punto1)
+
+nuevo_punto2 = np.array([[45, 9000]]) 
+prediccion2 = knn.predict(nuevo_punto2)
+
+nuevo_punto3 = np.array([[10, 50]]) 
+prediccion3 = knn.predict(nuevo_punto3)
+
+nuevo_punto4 = np.array([[67, 2000]])
+prediccion4 = knn.predict(nuevo_punto4)
+
+print(f"El caso 1 ha {'Comprado' if prediccion1[0] == 1 else 'No Comprado' }")
+print(f"El caso 2 ha {'Comprado' if prediccion2[0] == 1 else 'No Comprado' }")
+print(f"El caso 3 ha {'Comprado' if prediccion3[0] == 1 else 'No Comprado' }")
+print(f"El caso 4 ha {'Comprado' if prediccion4[0] == 1 else 'No Comprado' }")
+      
+plt.scatter(X[:, 0], X[:, 1], c=y, cmap='coolwarm', label='Datos')
+plt.scatter(nuevo_punto1[:, 0], nuevo_punto1[:, 1], c='black', label="caso 1", marker='X', s=100)
+plt.scatter(nuevo_punto2[:, 0], nuevo_punto2[:, 1], c='pink', label="caso 2", marker='X', s=100)
+plt.scatter(nuevo_punto3[:, 0], nuevo_punto3[:, 1], c='orange', label="caso 3", marker='X', s=100)
+plt.scatter(nuevo_punto4[:, 0], nuevo_punto4[:, 1], c='green', label="caso 4", marker='X', s=100)
+plt.title("Clasificación KNN")
+plt.xlabel("Edad")
+plt.ylabel("Ingreso")
+plt.legend()
+plt.show()
